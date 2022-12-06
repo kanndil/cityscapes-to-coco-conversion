@@ -135,6 +135,9 @@ def convert_cityscapes_instance_only(data_dir, out_dir):
     category_dict = {}
 
     category_instancesonly = [
+        
+        
+        
         'person',
         'rider',
         'car',
@@ -143,6 +146,25 @@ def convert_cityscapes_instance_only(data_dir, out_dir):
         'train',
         'motorcycle',
         'bicycle',
+        'fence'                ,
+        'bridge'               ,
+        'tunnel'               ,
+        'pole'                 ,
+        'polegroup'            ,
+        'traffic light'        ,
+        'traffic sign'         ,
+        'vegetation'           ,
+        'person'               ,
+        'rider'                ,
+        'car'                  ,
+        'truck'                ,
+        'bus'                  ,
+        'caravan'              ,
+        'trailer'              ,
+        'train'                ,
+        'motorcycle'           ,
+        'bicycle'              ,
+
     ]
 
     for data_set, ann_dir in zip(sets, ann_dirs):
